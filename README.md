@@ -2,7 +2,7 @@
 This github repository is for our paper "Potential Neutralizing Antibodies Discovered for Novel Corona Virus Using Machine Learning" published in Scientific Reports. To read the paper please visit the following link: https://www.nature.com/articles/s41598-021-84637-4
 
 # Dataset - VirusNet
-We have collected the dataset from LANL - CATNAP database and the RCSB PDB server. The VirusMet database is a collection of the FASTA sequence of the antibody and the corresponding antigen sequence. The process of data collection is described in the paper.
+We have collected the dataset from LANL - CATNAP database and the RCSB PDB server. The VirusNet database is a collection of the FASTA sequence of the antibody and the corresponding antigen sequence. The process of data collection is described in the paper.
 
 VirusNet.csv is the dataset that we used in the paper. We have also added some additional data to the existing VirusNet data, this additional data is present in VirusNet_additional.csv. 
 
