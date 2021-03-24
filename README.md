@@ -11,7 +11,7 @@ Please cite CATNAP (https://www.hiv.lanl.gov/components/sequence/HIV/neutralizat
 We used graph featurization of the FASTA sequence by converting the sequence into its corresponding molecule and then using atom features to create a representation. After creating the representation, we ran some of the standard machine learning models to determine the antibodies that can neutralize SARS-CoV-2. These antibodies were later validated through molecular dynamics simulations. More details about the methods can be found in the paper. 
 
 # Running the code 
-The packages that we used in the code numpy, scikit-learn, XGBoost, matplotlib, rdkit. The instructions for installing them can be found on the webpages for the respective packages. To run the code on your custom data just replace the filename at the appropriate commented place in the code.
+The packages that we used in the code numpy, scikit-learn, XGBoost, matplotlib, rdkit. The instructions for installing them can be found on the webpages for the respective packages. To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages
 
 # Authors 
 The work was done by Rishikesh Magar and Prakarsh Yadav under the supervision of Amir Barati Farimani
