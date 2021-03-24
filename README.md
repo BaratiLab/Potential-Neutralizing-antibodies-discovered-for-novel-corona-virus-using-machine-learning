@@ -4,7 +4,7 @@ This github repository is for our paper "Potential Neutralizing Antibodies Disco
 # Dataset - VirusNet
 We have collected the dataset from LANL - CATNAP database and the RCSB PDB server. The VirusMet database is a collection of the FASTA sequence of the antibody and the corresponding antigen sequence. The process of data collection is described in the paper.
 
-VirusNet.csv is the dataset that we used in the paper. We have also added some additional data to the existing VirusNet data, this additional data is present in VirusNet_additional.csv. Overall, we have 2349 Antibody- Antigen pairs in the dataset
+VirusNet.csv is the dataset that we used in the paper. We have also added some additional data to the existing VirusNet data, this additional data is present in VirusNet_additional.csv. 
 
 # Methods
 We used graph featurization of the FASTA sequence by converting the sequence into its corresponding molecule and then using atom features to create a representation. After creating the representation, we ran some of the standard machine learning models to determine the antibodies that can neutralize SARS-CoV-2. These antibodies were later validated through molecular dynamics simulations. More details about the methods can be found in the paper. 
