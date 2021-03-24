@@ -4,8 +4,7 @@ from rdkit import Chem
 import multiprocessing
 import logging
 import pandas as pd
-# following code was borrowed from deepchem
-# https://raw.githubusercontent.com/deepchem/deepchem/master/deepchem/feat/graph_features.py
+# The code for featurization was borrowed from deepchem. Please refer https://deepchem.io for more information
 from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
