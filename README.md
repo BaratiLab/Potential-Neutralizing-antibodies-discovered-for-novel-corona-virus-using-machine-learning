@@ -20,3 +20,6 @@ python Ab_Virus.py
 
 # Authors 
 The work was done by Rishikesh Magar and Prakarsh Yadav under the supervision of Amir Barati Farimani
+
+# Acknowledgement
+The authors would like to thank Junhan Li, Aastha Jhunjhunwala and Baishali Mullick for their efforts in the data collection process
